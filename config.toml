@@ -197,17 +197,17 @@ googleAnalytics = "UA-100847740-1"
         company = "Freelancer"
         details = "In addition to the mentioned posts, I have also been a freelancer and consultant in Payanehaye Dadeyi Novin, Tinab, Sabim, and Studio Farda. "
         [[params.experience.list.items]]
-        details = "At PDN, I advise on designing server plans and also I am in charge of the services two of the most important projects in here. In addition to #Docker_Swarm #Elasticsearch #Postgres #Kubernetes #Ansible #MSSQL_server #Sonarqube #Tomcat #RabbitMQ; I have been able to familiarize myself with a series of new services and I have worked with them for a while now. They include:"
+        details = "At PDN, I advise on designing server plans and also I am in charge of the services two of the most important projects in here. In addition to **Docker Swarm** **Elasticsearch** **Postgres** **Kubernetes** **Ansible** **MSSQL server** **Sonarqube** **Tomcat** **RabbitMQ** ; I have been able to familiarize myself with a series of new services and I have worked with them for a while now. They include:"
         [[params.experience.list.items]]
-        details = "Kafka"
+        details = "**Kafka**"
         [[params.experience.list.items]]
-        details = "Hadoop"
+        details = "**Hadoop**"
         [[params.experience.list.items]]
-        details = "Streaming with Nginx"
+        details = "**Streaming** with **Nginx**"
         [[params.experience.list.items]]
-        details = "CI/CD for Java spring (with and without Kubernetes) in Gitlab"
+        details = "**CI/CD** for **Java spring** (with and without **Kubernetes**) in **Gitlab**"
         [[params.experience.list.items]]
-        details = "CI/CD for .NET core and AngularJS with Microsoft Azure"
+        details = "**CI/CD** for **.NET core** and **AngularJS** with Microsoft **Azure**"
 
         [[params.experience.list]]
         title = "Lead Software Developer"
