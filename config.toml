@@ -1,3 +1,323 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# Page settings
+
+baseURL = "https://resume.mparvin.me"
+languageCode = "en"
+title = "Mohammad Parvin Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-100847740-1"
+
+
+
+
+
+
+[params]
+    author = "Mohammad Parvin"
+    description = "Mohammad Parvin's Resume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Mohammad Parvin"
+        tagline = "DevOps Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Tehran/Iran"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:+989195828917"
+        text = "+98 919 5828 917"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:me@mparvin.me"
+        text = "me@mparvin.me"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://mparvin.me"
+        text = "MParvin.me"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "CentOS/Ubuntu/Debian"
+        [[params.skills.list.items]]
+        details = "Kubernets/Docker"
+        [[params.skills.list.items]]
+        details = "Vmware Esxi/KVM"
+        [[params.skills.list.items]]
+        details = "Ansible"
+        [[params.skills.list.items]]
+        details = "Prometheus/Zabbix/PRTG"
+        [[params.skills.list.items]]
+        details = "Mongo/MySQL/Mariadb Galera/Elasticsearch/Postgres/MSSQL/Redis"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Nginx (Web, Cache, Load balancer, Stream)"
+        [[params.skills.list.items]]
+        details = "Gitlab CI/Sonarqube"
+        [[params.skills.list.items]]
+        details = "ELK stack/Graylog"
+        [[params.skills.list.items]]
+        details = "Python/PHP/Bash"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "AD in Computer Hardware"
+        university = "Pars Electric University"
+        dates = "2010 - 2014"
+        [[params.education.list]]
+        degree = "Diploma in Computer"
+        university = "Ebtekar"
+        dates = "2000 - 2003"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Persian"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Intermediate+"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "PingPong"
+        [[params.interests.list]]
+        name = "Soccer"
+        [[params.interests.list]]
+        name = "Swiming"
+        [[params.interests.list]]
+        name = "Nature"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = " Experienced Chief Executive Officer with a demonstrated history of working in the information technology and services industry. Skilled in DevOps, Linux, Load balancing, MariaDB cluster and technologies about Linux and DevOps. Strong business development professional with an Associate's degree focused in Computer Hardware Engineering from Pars ELectrics University. "
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior DevOps Engineer"
+        dates = "Mar 2020 - Present"
+        company = "Freelancer"
+        details = "In addition to the mentioned posts, I have also been a freelancer and consultant in Payanehaye Dadeyi Novin, Tinab, Sabim, and Studio Farda. "
+        [[params.experience.list.items]]
+        details = "At PDN, I advise on designing server plans and also I am in charge of the services two of the most important projects in here. In addition to #Docker_Swarm #Elasticsearch #Postgres #Kubernetes #Ansible #MSSQL_server #Sonarqube #Tomcat #RabbitMQ; I have been able to familiarize myself with a series of new services and I have worked with them for a while now. They include:"
+        [[params.experience.list.items]]
+        details = "Kafka"
+        [[params.experience.list.items]]
+        details = "Hadoop"
+        [[params.experience.list.items]]
+        details = "Streaming with Nginx"
+        [[params.experience.list.items]]
+        details = "CI/CD for Java spring (with and without Kubernetes) in Gitlab"
+        [[params.experience.list.items]]
+        details = "CI/CD for .NET core and AngularJS with Microsoft Azure"
+
+        [[params.experience.list]]
+        title = "Lead Software Developer"
+        dates = "2016 - 2019"
+        company = "Apple"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Senior Software Developer"
+        dates = "2014 - 2016"
+        company = "Dropbox"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Senior Developer"
+        dates = "2013 - 2014"
+        company = "Uber"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+        [[params.experience.list]]
+        title = "Backend Developer"
+        dates = "2014 - 2016"
+        company = "Amazon"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Frontend Developer"
+        dates = "2013 - 2014"
+        company = "Startup"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+
+
+
+
+
